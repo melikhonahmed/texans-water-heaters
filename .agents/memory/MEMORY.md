@@ -1,0 +1,1 @@
+- [Texans visual direction](texans-design-direction.md) — Prefer a restrained brand-led service site over layered stock imagery and generic marketing-template decoration.

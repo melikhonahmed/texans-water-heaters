@@ -109,24 +109,23 @@ function EstimateForm() {
 }
 
 function Hero() {
-  return <section id="top" className="overflow-hidden bg-[hsl(var(--primary))] text-[hsl(var(--card))]">
-    <div className="blueprint-grid-dark absolute inset-x-0 h-[720px] opacity-60" />
-    <div className="section-wrap relative grid items-stretch gap-0 lg:grid-cols-[.82fr_1.18fr]">
-      <div className="relative z-10 flex flex-col justify-center py-16 md:py-24 lg:py-28">
+  return <section id="top" className="hero-clean text-[hsl(var(--card))]">
+    <div className="section-wrap hero-grid">
+      <div className="hero-copy">
         <div className="mb-7 flex items-center gap-3"><span className="h-px w-10 bg-[hsl(var(--accent))]" /><span className="eyebrow text-[hsl(var(--accent))]">Houston’s water heater specialists</span></div>
-        <h1 className="font-display text-[clamp(3.4rem,7vw,6.8rem)] font-extrabold leading-[.88] tracking-[-.08em]">Hot water<br /><span className="text-[hsl(var(--accent))]">handled.</span></h1>
-        <p className="mt-8 max-w-lg text-lg leading-8 text-[hsl(var(--card)/.7)]">When the shower goes cold or a leak will not wait, Texans brings capable, local help to homes across Houston and surrounding communities.</p>
-        <div className="mt-9 flex flex-col gap-3 sm:flex-row"><button type="button" onClick={() => scrollToId('estimate')} className="button-base button-light" data-testid="button-hero-estimate">Get a free estimate <ArrowRight size={16} /></button><a href={BUSINESS.phoneHref} className="button-base border border-[hsl(var(--card)/.25)] text-[hsl(var(--card))] hover:border-[hsl(var(--accent))] hover:text-[hsl(var(--accent))]" data-testid="link-hero-call"><Phone size={16} /> {BUSINESS.phone}</a></div>
-        <div className="mt-12 flex flex-wrap gap-x-6 gap-y-3 text-[.68rem] font-bold uppercase tracking-[.11em] text-[hsl(var(--card)/.52)]"><span className="flex items-center gap-2"><Check size={14} className="text-[hsl(var(--accent))]" /> Same-day when available</span><span className="flex items-center gap-2"><Check size={14} className="text-[hsl(var(--accent))]" /> Free estimates</span></div>
+        <h1 className="font-display text-[clamp(3.35rem,7vw,6.8rem)] font-extrabold leading-[.86] tracking-[-.09em]">Hot water<br /><span className="text-[hsl(var(--accent))]">handled.</span></h1>
+        <p className="mt-8 max-w-lg text-lg leading-8 text-[hsl(var(--card)/.72)]">When the shower goes cold or a leak will not wait, Texans brings capable, local help to homes across Houston and surrounding communities.</p>
+        <div className="mt-9 flex flex-col gap-3 sm:flex-row"><button type="button" onClick={() => scrollToId('request')} className="button-base button-light" data-testid="button-hero-estimate">Get a free estimate <ArrowRight size={16} /></button><a href={BUSINESS.phoneHref} className="button-base hero-call" data-testid="link-hero-call"><Phone size={16} /> {BUSINESS.phone}</a></div>
+        <div className="mt-12 flex flex-wrap gap-x-6 gap-y-3 text-[.68rem] font-bold uppercase tracking-[.11em] text-[hsl(var(--card)/.56)]"><span className="flex items-center gap-2"><Check size={14} className="text-[hsl(var(--accent))]" /> Same-day when available</span><span className="flex items-center gap-2"><Check size={14} className="text-[hsl(var(--accent))]" /> Free estimates</span></div>
       </div>
-      <div className="hero-image relative flex items-end overflow-hidden lg:-mr-[calc((100vw-1220px)/2)]">
-        <img src="/hero-technician.jpg" alt="Texans Water Heaters technician inspecting a modern water heater" className="absolute inset-0 h-full w-full object-cover opacity-70 mix-blend-screen" />
-        <div className="absolute inset-0 bg-gradient-to-r from-[hsl(var(--primary))] via-[hsl(var(--primary)/.2)] to-transparent" /><div className="absolute inset-0 bg-gradient-to-t from-[hsl(var(--primary)/.96)] via-transparent to-[hsl(var(--primary)/.12)]" />
-        <div className="number-watermark absolute right-3 top-10">713</div>
-        <div className="relative z-10 w-full translate-y-1 px-4 pb-5 sm:px-10 lg:-ml-20 lg:pb-10"><img src="/texans-water-heaters-van.png" alt="Texans Water Heaters service van" className="w-full max-w-[700px] object-contain object-bottom drop-shadow-[0_20px_20px_rgba(0,0,0,.35)]" /><div className="mt-1 flex items-center justify-between border-t border-[hsl(var(--card)/.2)] pt-3 text-[.62rem] font-bold uppercase tracking-[.14em] text-[hsl(var(--card)/.56)]"><span>Local routes · real people</span><span>Est. Houston, TX</span></div></div>
+      <div className="hero-visual">
+        <span className="hero-number">713</span>
+        <div className="hero-visual-top"><span>Local routes</span><span>Real people</span></div>
+        <img src="/texans-water-heaters-van.png" alt="Texans Water Heaters service van" className="hero-vehicle" />
+        <div className="hero-visual-bottom"><span>Gas &amp; electric water heaters</span><span className="hidden sm:inline">Est. Houston, TX</span></div>
       </div>
     </div>
-    <div className="section-wrap relative flex items-center justify-between border-t border-[hsl(var(--card)/.14)] py-4 text-[.64rem] font-bold uppercase tracking-[.15em] text-[hsl(var(--card)/.46)]"><span>Serving the homes that make this city</span><span className="hidden items-center gap-2 sm:flex"><MapPin size={13} /> Dispatch open 7 days</span></div>
+    <div className="section-wrap hero-footer"><span>Serving the homes that make this city</span><span className="flex items-center gap-2"><MapPin size={13} /> Dispatch open 7 days</span></div>
   </section>;
 }
 
