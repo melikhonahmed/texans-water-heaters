@@ -1,0 +1,298 @@
+Redesign the current website into a modern, premium, high-converting plumbing and water heater service website.
+
+Important: Use all of the existing website content, information, services, headings, contact details, offers, testimonials, FAQs, and calls-to-action from the current website. Do not remove important content or replace the existing business information with placeholder content. The goal is to improve the design, layout, user experience, and conversion rate while preserving the current content.
+
+Design Direction
+
+Create a website that feels:
+
+Modern and professional
+Premium and trustworthy
+Clean and easy to navigate
+Local-service focused
+High-converting
+Mobile-first and fully responsive
+Fast and accessible
+
+Avoid an outdated or overly corporate appearance. Avoid generic AI-generated layouts and excessive rounded cards. The design should feel like a professionally designed website for an established local plumbing and water heater company.
+
+Visual Style
+
+Use the existing brand identity and colors as inspiration, especially:
+
+Dark navy blue
+Bright blue
+Red accents for urgent actions and promotions
+White and light gray backgrounds
+
+Improve the visual hierarchy and use more whitespace.
+
+Use strong, modern typography with clear differences between headings and body text.
+
+The design should use:
+
+Clean grid layouts
+Large, confident headings
+Professional service imagery
+Subtle shadows
+Smooth border radius where appropriate
+Modern icons
+Clear visual hierarchy
+Subtle animations and hover effects
+
+Do not make every section look like a separate card.
+
+Header
+
+Redesign the header to be cleaner and more conversion-focused.
+
+Include the existing:
+
+Logo
+Navigation links
+Contact information
+Phone number
+Primary call-to-action
+
+Make the phone number highly visible.
+
+Add a prominent CTA such as Get a Free Estimate.
+
+Consider making the header sticky when scrolling.
+
+Hero Section
+
+Create a visually powerful hero section.
+
+Use the existing main messaging and promotional content, but redesign the presentation.
+
+The hero should immediately communicate:
+
+What the company does
+The main benefit or value proposition
+The service area or local focus
+How customers can contact the company
+
+Include:
+
+Strong headline
+Supporting description
+Primary CTA
+Secondary CTA such as Call Now
+Existing emergency or same-day service messaging
+Professional water heater or technician imagery
+
+Keep the existing estimate/contact form functionality, but redesign it into a cleaner, simpler, more modern conversion form.
+
+Make the form visually prominent without overwhelming the hero section.
+
+Trust and Benefits Section
+
+Redesign the current trust indicators and benefits into a clean horizontal section.
+
+Highlight the existing benefits such as:
+
+Free estimates
+Fast response
+Same-day service
+Professional technicians
+Warranty or service guarantees
+
+Use modern icons and concise text.
+
+About / Company Introduction
+
+Keep the existing company introduction and testimonial content.
+
+Redesign the section using a modern two-column layout with:
+
+Text on one side
+Professional image or relevant existing visual on the other side
+Better typography
+More whitespace
+Clear visual hierarchy
+
+Make testimonials more visually engaging and easier to read.
+
+Services Section
+
+Redesign the services into a modern service grid.
+
+Preserve all existing services.
+
+Each service should have:
+
+Relevant icon
+Service title
+Short description
+Optional "Learn More" interaction
+
+Examples include the existing water heater-related services and plumbing services.
+
+Do not overcrowd the section.
+
+Same-Day / Emergency Service Section
+
+Create a high-impact conversion section for the existing same-day water heater service.
+
+Use:
+
+Strong headline
+Existing phone number
+Clear CTA
+Relevant technician or company vehicle imagery
+
+This section should stand out visually and encourage immediate contact.
+
+Why Choose Us
+
+Redesign the existing "Why Choose Us" content into a modern benefits section.
+
+Use concise benefit cards or a structured layout.
+
+Focus on:
+
+Experience
+Fast service
+Professional technicians
+Customer satisfaction
+Warranty
+Local expertise
+
+Avoid excessive text.
+
+Project / Gallery Section
+
+Keep the existing project photos.
+
+Redesign them into a clean, modern image gallery.
+
+Use:
+
+Consistent image ratios
+Hover effects
+Optional lightbox functionality
+Responsive masonry or grid layout
+
+The gallery should feel premium and demonstrate real work.
+
+Video Section
+
+Keep the existing YouTube/video content.
+
+Redesign the section with a cleaner video container and stronger supporting headline.
+
+Make the video visually prominent.
+
+Testimonials Section
+
+Redesign the existing customer reviews into a premium testimonial experience.
+
+Use:
+
+Large quotation marks
+Customer name
+Optional star rating if already supported by the content
+Carousel or slider if appropriate
+
+Prioritize readability and trust.
+
+Promotions and Special Offers
+
+Preserve the existing promotional offers and discounts.
+
+Redesign them to look more professional and urgent.
+
+Use the existing red and blue brand accents strategically.
+
+Make offers easy to scan and include clear CTAs.
+
+FAQ Section
+
+Keep all existing FAQ questions and answers.
+
+Redesign them into a modern accordion.
+
+Requirements:
+
+Only one or multiple items can expand smoothly
+Clear plus/minus indicators
+Clean spacing
+Mobile-friendly
+Educational / Content Section
+
+Keep the existing water heater educational content and articles.
+
+Redesign this section into a clean blog-style layout with:
+
+Featured content
+Supporting article cards
+Clear headings
+Read More buttons
+
+Maintain all current content.
+
+Certifications and Trust Section
+
+Keep the existing certifications, badges, and trust indicators.
+
+Display them cleanly with consistent sizing and spacing.
+
+Do not distort certification logos.
+
+Footer
+
+Redesign the footer into a clean, modern structure.
+
+Include the existing:
+
+Company information
+Phone number
+Address/contact details
+Navigation links
+Social links
+Branding
+Copyright information
+
+Make important contact information easy to find.
+
+UX and Conversion Requirements
+
+Prioritize conversion throughout the website.
+
+Include clear CTAs throughout the page, such as:
+
+Get a Free Estimate
+Call Now
+Schedule Service
+Contact Us
+
+The phone number should remain easily accessible, especially on mobile.
+
+For mobile:
+
+Add a sticky bottom CTA bar with Call Now and Get Estimate actions.
+Make forms easy to complete.
+Ensure buttons are large and touch-friendly.
+Technical Requirements
+
+Build the redesign as a fully responsive, production-quality landing page.
+
+Requirements:
+
+Desktop, tablet, and mobile responsive
+Clean semantic structure
+Fast-loading
+Accessible
+Smooth animations
+Optimized images
+Modern UI interactions
+SEO-friendly structure
+
+Use reusable components and clean code.
+
+Do not use placeholder Lorem Ipsum content.
+
+Use the content from the current website and preserve the business information. The primary task is to completely improve the visual design, layout, user experience, responsiveness, and conversion performance while keeping the original website content and services intact.
+
+The final result should feel like a high-end, modern website designed by a professional agency for a successful local water heater and plumbing company, rather than a simple template redesign.

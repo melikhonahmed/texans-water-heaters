@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Plumbing & Water Heater Service Website"
+description = "A premium, responsive local plumbing and water heater service website designed to build trust, surface urgent service options, and turn visits into estimate requests and calls."
+version = "1.0.0"
+id = "artifacts/plumbing-water-heater-site"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18528
+
+[services.development]
+run = "pnpm --filter @workspace/plumbing-water-heater-site run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/plumbing-water-heater-site", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/plumbing-water-heater-site/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18528"
+BASE_PATH = "/"
