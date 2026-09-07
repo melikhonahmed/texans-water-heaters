@@ -1,2 +1,3 @@
 - [Texans visual direction](texans-design-direction.md) — Prefer a restrained brand-led service site over layered stock imagery and generic marketing-template decoration.
 - [Pino HTTP import compatibility](pino-http-vercel-import.md) — Use pino-http's named pinoHttp export for Vercel TypeScript compatibility.
+- [Vercel workspace imports](vercel-workspace-imports.md) — Keep standalone Vercel Node entrypoints free of workspace source imports outside their rootDir.
